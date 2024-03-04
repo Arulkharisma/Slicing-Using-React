@@ -69,3 +69,51 @@ span.color-active{
     font-weight: bold;
     color: white;
 }
+
+
+@media only screen and (max-width: 1000px) {
+    .bg-hero{
+        background-position: right;
+    }
+    .image-hero{
+        width: 450px;
+    }
+    .title-hero{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 915px) {
+    .bg-hero{
+        background-position: right;
+    }
+    .image-hero{
+        width: 350px;
+    }
+    .title-hero{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .title-hero{
+        margin-top: 40px;
+    }
+    .image-hero{
+        display: none;
+    }
+    .bg-hero{
+        background: none;   
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        width: auto;
+    }
+    #basic-navbar-nav{
+        background-color: var(--heading);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+    }
+    .navbar-nav{
+        gap: 8px;
+    }
+}

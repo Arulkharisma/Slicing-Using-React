@@ -12,7 +12,7 @@ const HomePage = () => {
             <button>Start Now <BsArrowRight/> </button>
           </div>
           <div className="col-md-6">
-            <img src="/Left.png" alt="hero-image" />
+            <img className="image-hero" src="/Left.png" alt="hero-image" width="600px"/>
           </div>
         </section>
       </Container>

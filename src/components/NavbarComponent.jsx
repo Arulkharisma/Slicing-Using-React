@@ -27,7 +27,7 @@ const NavbarComponent = () => {
 
   return (
     <div>
-     <Navbar expand="lg" className={`transparent fixed-top text-center ${changeColor ? "bg-active" : ""}`}>
+     <Navbar expand="lg" className={` fixed-top text-center ${changeColor ? "bg-active" : ""}`}>
       <Container>
         <Navbar.Brand className="me-4" href="/"><img src="/Logo.png" alt="logo" className="me-1" /> <span className={`fw-bold fs-5 align-middle ${changeText ? "color-active" : ""}`}>Arkha</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
