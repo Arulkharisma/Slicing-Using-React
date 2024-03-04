@@ -2,3 +2,5 @@
 
 Repository GitHub ini berisi hasil belajar saya dalam slicing UI dari **codedesign.dev** 
 menggunakan React JS, Bootstrap dan tailwind.
+
+#### link Demo --> https://arkhabook.vercel.app/
