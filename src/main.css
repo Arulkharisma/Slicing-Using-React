@@ -73,9 +73,11 @@ span.color-active{
 
 .feature-page{
     margin-top: 70px;
+    margin-bottom: 40px;
 }
 
-.feature-page p:nth-child(1){
+.feature-page p:nth-child(1),
+.title-service{
     color: var(--primary-color);
     margin: 8px;
     font-weight: 700;
@@ -86,6 +88,18 @@ span.color-active{
     color: var(--description);
 }
 
+.description-service{
+    width: 36%;
+}
+
+.description-service >p{
+    color: var(--description);
+    font-weight: 500;
+}
+
+.description-service h2 > span{
+    color: var(--primary-color);
+}
 
 
 
@@ -93,7 +107,11 @@ span.color-active{
 
 
 
-
+@media only screen and (max-width: 1200px) {
+   .image-service img{
+    width: 500px;
+   }
+}
 @media only screen and (max-width: 1100px) {
     .image-hero {
         width: 480px;
@@ -114,7 +132,16 @@ span.color-active{
     .title-hero{
         font-size: 2rem;
     }
+
 }
+
+@media only screen and (max-width: 991px) {
+    .image-service img {
+        width: 400px;
+    }
+}
+
+
 @media only screen and (max-width: 915px) {
     .bg-hero{
         background-position: right;
@@ -156,5 +183,29 @@ span.color-active{
     }
     .navbar-toggler{
         background-color: white;
+    }
+    .description-service {
+        width: 100%;
+        text-align: center;
+    }
+    .image-service img{
+        width: 450px;
+    }
+    .image-service{
+        display: flex;
+        justify-content: center;
+    }
+    .second-service{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .description-service{
+        padding: 25px;
+    }
+}
+
+@media only screen and (max-width: 458px) {
+    .image-service img{
+        width: 300px;
     }
 }

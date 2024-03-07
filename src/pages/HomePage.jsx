@@ -1,6 +1,7 @@
 import { Container } from "react-bootstrap"
 import { BsArrowRight } from "react-icons/bs";
 import FeaturePage from "./FeaturePage";
+import ServicePage from "./ServicePage";
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
         </Container>
       </div>
       <FeaturePage />
+      <ServicePage />
     </>
   )
 }

@@ -23,8 +23,6 @@ const NavbarComponent = () => {
     window.addEventListener("scroll", changeBackground)
   })
 
-
-
   return (
     <div>
      <Navbar expand="lg" className={` fixed-top text-center ${changeColor ? "bg-active" : ""}`}>
